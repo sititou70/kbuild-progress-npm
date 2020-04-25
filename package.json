@@ -1,8 +1,12 @@
 {
   "name": "kbuild-progress",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "The progress bar for Linux kernel building.",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sititou70/kbuild-progress.git"
+  },
   "files": [
     "dist/index.js"
   ],
@@ -23,8 +27,8 @@
     "kernel",
     "build"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "sititou70",
+  "license": "MIT",
   "dependencies": {
     "@types/byline": "^4.2.31",
     "@types/node": "^13.13.2",
