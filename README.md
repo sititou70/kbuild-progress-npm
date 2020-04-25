@@ -1,5 +1,7 @@
 # kbuild-progress
 
+[![npm version](https://badge.fury.io/js/kbuild-progress.svg)](https://badge.fury.io/js/kbuild-progress)
+
 The progress bar for Linux kernel building.
 
 ## install
