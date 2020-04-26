@@ -49,6 +49,8 @@ const main = async (): Promise<void> => {
   );
   const progress = new Progress('[:bar] :percent (:current / :total) :etas', {
     total: target_files.size,
+    complete: '=',
+    incomplete: ' ',
   });
 
   while (true) {
