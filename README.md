@@ -4,6 +4,8 @@
 
 The progress bar for Linux kernel building.
 
+![kbuild-progress demo](https://user-images.githubusercontent.com/18525488/80591216-41910680-8a58-11ea-8aa4-646947a7521f.gif)
+
 ## install
 
 `npm install -g kbuild-progress`
