@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sititou70/kbuild-progress.git"
+    "url": "https://github.com/sititou70/kbuild-progress-npm.git"
   },
   "files": [
     "dist/index.js"
