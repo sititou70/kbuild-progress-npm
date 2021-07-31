@@ -1,6 +1,6 @@
 {
   "name": "kbuild-progress",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "The progress bar for Linux kernel building.",
   "main": "dist/index.js",
   "repository": {
