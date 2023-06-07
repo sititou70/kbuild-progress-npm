@@ -1,17 +1,17 @@
 {
   "name": "kbuild-progress",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "The progress bar for Linux kernel building.",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/sititou70/kbuild-progress-npm.git"
   },
   "files": [
-    "dist/index.js"
+    "./dist/index.js"
   ],
   "bin": {
-    "kbuild-progress": "dist/index.js"
+    "kbuild-progress": "./dist/index.js"
   },
   "scripts": {
     "build:clean": "rm -rf dist",
@@ -37,5 +37,9 @@
     "npm-run-all": "^4.1.5",
     "progress": "^2.0.3",
     "typescript": "^3.8.3"
+  },
+  "engines": {
+    "node": "20.2.0",
+    "npm": "9.6.7"
   }
 }
